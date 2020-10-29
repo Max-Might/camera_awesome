@@ -56,7 +56,7 @@ public class CameraPicture implements CameraSession.OnCaptureSession {
         mCameraSession = cameraSession;
         mCameraCharacteristics = cameraCharacteristics;
         flashMode = FlashMode.NONE;
-        setAutoFocus(true);
+        setAutoFocus(false);
     }
 
     /**
